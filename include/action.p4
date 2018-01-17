@@ -9,7 +9,7 @@ action set_ecmp_dip_dport(dip, dPort) {
 }
 
 action_selector ecmp_selector {
-    selection_key : gen_digest;
+    selection_key : ecmp_digest;
 }
 
 action_profile ecmp_action_profile {

@@ -6,7 +6,7 @@ field_list hash_fields {
     LB_meta.vPort;
 }
 
-field_list_calculation gen_digest {
+field_list_calculation ecmp_digest {
     input {
         hash_fields;
     }
